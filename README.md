@@ -11,7 +11,7 @@ Due to the extreme volalitlity of the nascent crypto market, the opportunity wil
 
 In attempting to connect via API with overseas crypto centralized exchanges, I learned that all of them required either a premium subscription (not free) or required enhanced verificiation (required me to uploaded a picture of myself and an ID), which I was not willing to do.
 
-To get around this, for demostration purposes, I decided to pick a specific market (South Korea), and downloadeded a csv file listing daily prices of BTC in South Korea from: https://www.investing.com/crypto/bitcoin/btc-krw-historical-data; I then converted the Korean won (KRW) currency back to USD by multiplying each daily close with the daily exchange rate from: https://www.investing.com/crypto/bitcoin/btc-krw-historical-data. (I could not utilize alphavantage's exchange rate because it did not have historical values).
+To get around this, for demostration purposes, I decided to pick a specific market (South Korea), and downloadeded a csv file listing daily prices of BTC in South Korea from: https://www.investing.com/crypto/bitcoin/btc-krw-historical-data; I then converted the Korean won (KRW) currency back to USD by multiplying each daily close with the daily exchange rate from: https://www.investing.com/currencies/krw-usd-historical-data. (I could not utilize alphavantage's exchange rate because it did not have historical values).
 
 
 Step 1:
