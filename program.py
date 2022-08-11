@@ -8,6 +8,7 @@ import pandas as pd
 import chart_studio
 import chart_studio.plotly as py
 import chart_studio.presentation_objs as pres
+import pytest
 
 try:
     symbol = input("Please input crypto ticker: ").upper()
@@ -55,7 +56,7 @@ try:
         return f"{(my_number * 100):.4f}%"
     print("Today's date is: ")
     print(df_uploaded_csv['Date'][1003])
-    print("The daily market-close difference between markets is: ")
+    print("The daily market-close spread between markets is: ")
     percent_change = to_pct((df_uploaded_csv['BTC price in SK'][1003]-df_uploaded_csv['close (USD)'][1003])/df_uploaded_csv['close (USD)'][1003])
     print(percent_change)
     to_float1 = percent_change.strip('%')
