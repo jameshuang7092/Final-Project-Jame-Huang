@@ -54,9 +54,9 @@ try:
     def to_pct(my_number):
         return f"{(my_number * 100):.4f}%"
     print("Today's date is: ")
-    print(df_uploaded_csv['Date'][998])
+    print(df_uploaded_csv['Date'][1003])
     print("The daily market-close difference between markets is: ")
-    percent_change = to_pct((df_uploaded_csv['BTC price in SK'][998]-df_uploaded_csv['close (USD)'][998])/df_uploaded_csv['close (USD)'][998])
+    percent_change = to_pct((df_uploaded_csv['BTC price in SK'][1003]-df_uploaded_csv['close (USD)'][1003])/df_uploaded_csv['close (USD)'][1003])
     print(percent_change)
     to_float1 = percent_change.strip('%')
     to_float2 = float(to_float1)
