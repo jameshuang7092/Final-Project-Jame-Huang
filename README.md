@@ -23,7 +23,10 @@ Run the program from a terminal via: $python program.py
 Step 3:
 Check historical arbitrage opportunities with markets outside of the USA by inputting crypto symbol (for demo purposes, please use BTC). We will be using the USA market as the benchmark.
 
-Step 4: 
+Step 4:
+Input API key for Alphavantage
+
+Step 5: 
 Input the market outside of the USA to view historical arbitrage opportunities (for demo purposes, please use KRW for the South Korean Won).
 
 
