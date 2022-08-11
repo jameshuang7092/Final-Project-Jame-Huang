@@ -10,7 +10,7 @@ import chart_studio.plotly as py
 import chart_studio.presentation_objs as pres
 
 symbol = input("Please input crypto ticker: ").upper()
-api_key = input("Enter API key for Alphavantage: ")
+api_key = input("Enter API key for Alphavantage: ") #for some reason, getpass() is not working...
 market = input("Please input market outside the USA: ").upper()
 csv_url = f"https://www.alphavantage.co/query?function=DIGITAL_CURRENCY_DAILY&symbol={symbol}&market=USD&apikey={api_key}&datatype=csv"
 
